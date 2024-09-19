@@ -1,0 +1,10 @@
+<?php
+// Currency.php
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Currency extends Model
+{
+    protected $fillable = ['name', 'exchange_rate'];
+}
